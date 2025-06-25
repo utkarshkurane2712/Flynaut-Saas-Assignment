@@ -1,4 +1,4 @@
 #All The Assignment of The Company Will in Package format
-The date of assignment posted will be the package 
-and solution of this assignment present in that package 
+The date of posted assignment will be the package name
+and solution of this assignment present inside that package.
  
