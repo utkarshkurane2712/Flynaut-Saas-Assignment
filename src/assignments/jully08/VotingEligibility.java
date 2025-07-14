@@ -8,7 +8,7 @@ public class VotingEligibility {
             // Throwing exception explicitly
             throw new IllegalArgumentException("Age must be 18 or above to vote.");
         } else {
-            System.out.println("✅ Eligible to vote.");
+            System.out.println("Eligible to vote.");
         }
     }
 
