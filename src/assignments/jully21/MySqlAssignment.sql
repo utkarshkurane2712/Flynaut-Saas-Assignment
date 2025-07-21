@@ -62,3 +62,21 @@ select * from emp
 where sal is null
 and sal between 1000 and 3000;
 
+select * from emp
+where ename like "%a%"
+order by hiredate;
+
+select * from emp
+where ename like "m%"
+and job = "SALESMAN";
+
+select ename, sal from emp
+where ename like "%r"
+and job in("SALESMAN", "MANAGER");
+
+select ename, job, sal from  emp
+where ename like "______";
+
+select ename, job, hiredate from emp
+where ename like "_m%";
+
