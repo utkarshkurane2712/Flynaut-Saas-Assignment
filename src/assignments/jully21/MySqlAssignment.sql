@@ -80,3 +80,40 @@ where ename like "______";
 select ename, job, hiredate from emp
 where ename like "_m%";
 
+select * from emp
+order by hiredate asc, sal desc;
+
+select * from emp
+order by comm desc, job desc;
+
+select * from emp
+where deptno = 30
+order by job asc, sal desc;
+
+select * from emp
+where sal between 1000 and 3000
+order by hiredate, ename asc;
+
+select * from emp
+where job = "SALESMAN"
+order by comm desc
+limit 5;
+
+select * from emp
+where deptno = 30
+order by hiredate asc
+limit 3;
+
+select ename, job, sal from emp
+order by sal asc
+limit 5;
+
+select * from emp   
+where deptno = 20
+order by sal asc
+limit 3;
+
+select * from emp
+where deptno in (10, 20)
+order by sal asc
+limit 3;
